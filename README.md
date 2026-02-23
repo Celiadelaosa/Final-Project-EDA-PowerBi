@@ -106,10 +106,10 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 
 
 ## 📁 Organización del repositorio
-´´´
+```text
 📦 PROYECTO_FINAL
 ├── 📂 DATA
-│   ├── 📂 nutririon_processed
+│   ├── 📂 nutrition_processed
 │   │   └── nutrition_clean.csv  # Datos limpios tras la transformación
 │   └── 📂 nutrition_raw
 │       ├── demographic.csv
@@ -125,7 +125,6 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 ├── 📊 dashboard_PBI.pbix        # Visualizaciones en Power BI
 ├── 📄 Informe_explicativo.pdf   # Documento detallado del análisis
 └── 📘 README.md
-´´´
 
 ## 👩‍💻 Autora
 Celia de la Osa

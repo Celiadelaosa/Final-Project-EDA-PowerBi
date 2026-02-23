@@ -108,22 +108,26 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 ## 📁 Organización del repositorio
 
 El repositorio se estructura de la siguiente manera:
-PROYECTO_FINAL/
-├── DATA/
-│ ├── nutririon_processed/ #  Datos limpios tras la transformación
-│ │ └── nutrition_clean.csv
-│ └── nutrition_raw/ # Datos originales sin procesar
-│ ├── demographic.csv
-│ ├── diet.csv
-│ ├── examination.csv
-│ └── questionnaire.csv
-├── NOTEBOOKS/
-│ ├── nutrit_carga_limpieza.ipynb
-| ├── nutrit_eda.ipynb
-│ └── nutrition_clean.csv
-├── dashboard_PBI.pbix # Visualizaciones en Power BI
-├── Informe_explicativo
-└── README.md
+## 📁 Organización del repositorio
 
-## Autora
+📦 PROYECTO_FINAL
+├── 📂 DATA
+│   ├── 📂 nutririon_processed
+│   │   └── nutrition_clean.csv  # Datos limpios tras la transformación
+│   └── 📂 nutrition_raw
+│       ├── demographic.csv
+│       ├── diet.csv
+│       ├── examination.csv
+│       └── questionnaire.csv
+│
+├── 📂 NOTEBOOKS
+│   ├── nutrit_carga_limpieza.ipynb
+│   ├── nutrit_eda.ipynb
+│   └── nutrition_clean.csv
+│
+├── 📊 dashboard_PBI.pbix        # Visualizaciones en Power BI
+├── 📄 Informe_explicativo.pdf   # Documento detallado del análisis
+└── 📘 README.md
+
+## 👩‍💻 Autora
 Celia de la Osa

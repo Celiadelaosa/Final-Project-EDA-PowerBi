@@ -106,10 +106,7 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 
 
 ## 📁 Organización del repositorio
-
-El repositorio se estructura de la siguiente manera:
-## 📁 Organización del repositorio
-
+´´´
 📦 PROYECTO_FINAL
 ├── 📂 DATA
 │   ├── 📂 nutririon_processed
@@ -128,6 +125,7 @@ El repositorio se estructura de la siguiente manera:
 ├── 📊 dashboard_PBI.pbix        # Visualizaciones en Power BI
 ├── 📄 Informe_explicativo.pdf   # Documento detallado del análisis
 └── 📘 README.md
+´´´
 
 ## 👩‍💻 Autora
 Celia de la Osa

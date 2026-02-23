@@ -8,44 +8,44 @@ El trabajo integra limpieza, transformación, análisis descriptivo y análisis 
 
 ## 🎯 Objetivos
 
-Realizar la limpieza y transformación de un conjunto de datos de salud nutricional.
+- Realizar la limpieza y transformación de un conjunto de datos de salud nutricional.
 
-Analizar descriptivamente las variables principales.
+- Analizar descriptivamente las variables principales.
 
-Estudiar posibles relaciones entre IMC, presión arterial y estilo de vida.
+- Estudiar posibles relaciones entre IMC, presión arterial y estilo de vida.
 
-Construir un dashboard interactivo que permita explorar visualmente los resultados.
+- Construir un dashboard interactivo que permita explorar visualmente los resultados.
 
-Documentar y organizar el proyecto siguiendo buenas prácticas de repositorio.
+- Documentar y organizar el proyecto siguiendo buenas prácticas de repositorio.
 
 ## 🗂️ Conjunto de datos
 
 El dataset incluye variables relacionadas con:
 
-Índice de Masa Corporal (IMC)
+- Índice de Masa Corporal (IMC)
 
-Presión arterial sistólica y diastólica
+- Presión arterial sistólica y diastólica
 
-Nivel de actividad física
+- Nivel de actividad física
 
-Consumo calórico
+- Consumo calórico
 
-Variables nutricionales
+- Variables nutricionales
 
-Factores económicos
+- Factores económicos
 
 
 Durante el proceso se realizaron tareas de:
 
-Corrección de formatos numéricos (separadores decimales)
+- Corrección de formatos numéricos (separadores decimales)
 
-Conversión de tipos de datos
+- Conversión de tipos de datos
 
-Creación de variables derivadas (categorías de IMC)
+- Creación de variables derivadas (categorías de IMC)
 
-Ordenación personalizada de variables categóricas
+- Ordenación personalizada de variables categóricas
 
-Verificación de coherencia y consistencia de los datos
+- Verificación de coherencia y consistencia de los datos
 
 ## 🛠️ Herramientas utilizadas
 
@@ -108,13 +108,22 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 ## 📁 Organización del repositorio
 
 El repositorio se estructura de la siguiente manera:
+PROYECTO_FINAL/
+├── DATA/
+│ ├── nutririon_processed/ #  Datos limpios tras la transformación
+│ │ └── nutrition_clean.csv
+│ └── nutrition_raw/ # Datos originales sin procesar
+│ ├── demographic.csv
+│ ├── diet.csv
+│ ├── examination.csv
+│ └── questionnaire.csv
+├── NOTEBOOKS/
+│ ├── nutrit_carga_limpieza.ipynb
+| ├── nutrit_eda.ipynb
+│ └── nutrition_clean.csv
+├── dashboard_PBI.pbix # Visualizaciones en Power BI
+├── Informe_explicativo
+└── README.md
 
-/data → Dataset original y limpio
-
-/notebooks → Análisis exploratorio en Jupyter Notebook
-
-/dashboard → Archivo Power BI
-
-README.md → Descripción general del proyecto
-
-Informe explicativo del análisis
+## Autora
+Celia de la Osa

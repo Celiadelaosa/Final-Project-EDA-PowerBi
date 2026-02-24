@@ -50,11 +50,17 @@ Durante el proceso se realizaron tareas de:
 ## 🛠️ Herramientas utilizadas
 
 -Python
+
   -Pandas
+  
   -Matplotlib
+  
   -Seaborn
+  
 -Jupyter Notebook
+
 -VS Code
+
 -Power BI
 
 ## 🔎 Fases del proyecto

@@ -2,7 +2,7 @@
 
 ## 📌 Descripción del proyecto
 
-Este proyecto tiene como objetivo analizar la relación entre el Índice de Masa Corporal (IMC), la presión arterial, los niveles de actividad física y ciertos hábitos nutricionales, utilizando Python para el análisis exploratorio de datos (EDA) y Power BI para la construcción de un dashboard interactivo.
+Este proyecto tiene como objetivo analizar la relación entre los valores nutricionales, indicadores clínicos, el estilo de vida y las características demográficas de una muestra de individuos , utilizando Python para el análisis exploratorio de datos (EDA) y Power BI para la construcción de un dashboard interactivo.
 
 El trabajo integra limpieza, transformación, análisis descriptivo y análisis estadístico básico de los datos, finalizando con la visualización estructurada de los principales hallazgos.
 
@@ -12,7 +12,7 @@ El trabajo integra limpieza, transformación, análisis descriptivo y análisis 
 
 - Analizar descriptivamente las variables principales.
 
-- Estudiar posibles relaciones entre IMC, presión arterial y estilo de vida.
+- Estudiar posibles relaciones entre las variables.
 
 - Construir un dashboard interactivo que permita explorar visualmente los resultados.
 
@@ -41,7 +41,7 @@ Durante el proceso se realizaron tareas de:
 
 - Conversión de tipos de datos
 
-- Creación de variables derivadas (categorías de IMC)
+- Creación de variables derivadas (categorías de IMC, rangos de edad)
 
 - Ordenación personalizada de variables categóricas
 
@@ -49,19 +49,13 @@ Durante el proceso se realizaron tareas de:
 
 ## 🛠️ Herramientas utilizadas
 
-Python
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-VS Code
-
-Power BI
+-Python
+  -Pandas
+  -Matplotlib
+  -Seaborn
+-Jupyter Notebook
+-VS Code
+-Power BI
 
 ## 🔎 Fases del proyecto
 1️⃣ Limpieza y transformación de datos

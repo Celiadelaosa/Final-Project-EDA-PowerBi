@@ -51,11 +51,11 @@ Durante el proceso se realizaron tareas de:
 
 -Python
 
-  -Pandas
+  --Pandas
   
-  -Matplotlib
+  --Matplotlib
   
-  -Seaborn
+  --Seaborn
   
 -Jupyter Notebook
 

@@ -122,9 +122,8 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 │   ├── nutrit_eda.ipynb
 │   └── nutrition_clean.csv
 │
-├── 📊 dashboard_PBI.pbix        # Visualizaciones en Power BI
-├── 📄 Informe_explicativo.pdf   # Documento detallado del análisis
-└── 📘 README.md
+├── 📊 DB_nutrition.pbix        # Visualizaciones en Power BI
+└──📄 Informe_explicativo_nutrition.pdf   # Documento detallado del análisis
 ```
 
 ## 👩‍💻 Autora

@@ -1,111 +1,109 @@
-# 📊Proyecto-Final: Análisis Exploratorio y Dashboard de Salud Nutricional
-
-## 📌 Descripción del proyecto
-
-Este proyecto tiene como objetivo analizar la relación entre los valores nutricionales, indicadores clínicos, el estilo de vida y las características demográficas de una muestra de individuos , utilizando Python para el análisis exploratorio de datos (EDA) y Power BI para la construcción de un dashboard interactivo.
-
-El trabajo integra limpieza, transformación, análisis descriptivo y análisis estadístico básico de los datos, finalizando con la visualización estructurada de los principales hallazgos.
-
-## 🎯 Objetivos
-
-- Realizar la limpieza y transformación de un conjunto de datos de salud nutricional.
-
-- Analizar descriptivamente las variables principales.
-
-- Estudiar posibles relaciones entre las variables.
-
-- Construir un dashboard interactivo que permita explorar visualmente los resultados.
-
-- Documentar y organizar el proyecto siguiendo buenas prácticas de repositorio.
-
-## 🗂️ Conjunto de datos
-
-El dataset incluye variables relacionadas con:
-
-- Índice de Masa Corporal (IMC)
-
-- Presión arterial sistólica y diastólica
-
-- Nivel de actividad física
-
-- Consumo calórico
-
-- Variables nutricionales
-
-- Factores económicos
-
-
-Durante el proceso se realizaron tareas de:
-
-- Corrección de formatos numéricos (separadores decimales)
-
-- Conversión de tipos de datos
-
-- Creación de variables derivadas (categorías de IMC, rangos de edad)
-
-- Ordenación personalizada de variables categóricas
-
-- Verificación de coherencia y consistencia de los datos
-
-## 🛠️ Herramientas utilizadas
-
--Python
-
-  --Pandas
+🌐 Available languages:
+- 🇬🇧 English: README.md
+- 🇪🇸 Español: [README_ES.md](README_ES.md)
   
-  --Matplotlib
-  
-  --Seaborn
-  
--Jupyter Notebook
+# 📊 Nutritional Health Analysis: EDA & Interactive Dashboard
 
--VS Code
+## 📌 Project Overview
 
--Power BI
+This project explores the relationship between nutritional values, clinical indicators, lifestyle habits, and demographic characteristics within a sample population.
 
-## 🔎 Fases del proyecto
-1️⃣ Limpieza y transformación de datos
+The analysis combines Python-based Exploratory Data Analysis (EDA) with an interactive Power BI dashboard to identify patterns, relationships, and meaningful insights from the data.
 
-Se realizó la adecuación de formatos, conversión de variables numéricas y creación de nuevas columnas derivadas necesarias para el análisis.
+The workflow includes data cleaning, transformation, descriptive analysis, basic statistical analysis, and data visualization.
 
-2️⃣ Análisis exploratorio de datos (EDA)
+---
+## 🎯 Project Objectives
 
-Se llevó a cabo un análisis descriptivo y estadístico para identificar:
+- Clean and transform a nutritional health dataset
+- Perform descriptive analysis of key variables
+- Identify potential relationships between health indicators
+- Build an interactive dashboard for data exploration
+- Organize and document the project following repository best practices
 
-Distribuciones de variables
+---
+## 🗂️ Dataset Information
 
-Relaciones entre IMC y presión arterial
+The dataset contains variables related to:
 
-Asociación entre actividad física y consumo calórico
+- Body Mass Index (BMI)
+- Systolic and diastolic blood pressure
+- Physical activity level
+- Caloric intake
+- Nutritional indicators
+- Economic factors
 
-Posible influencia del factor económico
+Data preparation tasks included:
 
-3️⃣ Construcción del Dashboard
+- Correcting numeric formats (decimal separators)
+- Converting data types
+- Creating derived variables (BMI categories, age groups)
+- Custom sorting of categorical variables
+- Validating data consistency and quality
 
-Se diseñó un dashboard interactivo en Power BI que incluye:
-
-KPIs generales
-
-Comparaciones por categorías de IMC
-
-Análisis por nivel de actividad física
-
-Visualización de la relación continua entre IMC y presión arterial mediante gráfico de dispersión
-
-Segmentadores para facilitar la exploración
-
-## 📈 Principales hallazgos
-
-Se observa una relación positiva entre IMC y presión arterial, aunque con variabilidad individual.
-
-Los niveles de actividad física se asocian con diferencias en el consumo calórico.
-
-El factor económico no muestra una relación significativa con los principales indicadores de salud.
-
-Algunas variables nutricionales presentan patrones débiles o inconsistentes.
+---
 
 
-## 📁 Organización del repositorio
+## 🛠️ Tools & Technologies
+
+- Python
+   - Pandas
+   - Matplotlib
+   - Seaborn
+- Jupyter Notebook
+- VS Code
+- Power BI
+
+---
+## 🔎 Project Workflow
+
+### 1. Data Cleaning & Transformation
+
+Data formatting issues were corrected and new derived variables were created to prepare the dataset for analysis.
+
+### 2. Exploratory Data Analysis (EDA)
+
+Descriptive and statistical analysis was performed to identify:
+
+- Variable distributions
+- Relationships between BMI and blood pressure
+- Associations between physical activity and caloric intake
+- Potential effects of economic factors
+
+### 3. Dashboard Development
+
+An interactive Power BI dashboard was developed including:
+
+- General KPIs
+- BMI category comparisons
+- Physical activity analysis
+- Scatter plots showing BMI vs blood pressure relationships
+- Interactive filters and slicers
+
+---
+## 📈 Key Findings
+
+- A positive relationship was observed between BMI and blood pressure, although individual variability exists.
+- Physical activity levels appear associated with differences in caloric intake.
+- Economic factors did not show a significant relationship with the main health indicators.
+- Some nutritional variables displayed weak or inconsistent patterns.
+
+---
+
+## 💡 Project Value
+
+This project demonstrates skills in:
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical interpretation
+- Data visualization
+- Dashboard design using Power BI
+
+---
+
+
+## 📁 Repository Structure
 ```text
 📦 PROYECTO_FINAL
 ├── 📂 DATA
@@ -126,5 +124,5 @@ Algunas variables nutricionales presentan patrones débiles o inconsistentes.
 └──📄 Informe_explicativo_nutrition.pdf   # Documento detallado del análisis
 ```
 
-## 👩‍💻 Autora
+## 👩‍💻 Author
 Celia de la Osa
